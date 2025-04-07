@@ -12,7 +12,7 @@ function sum(a,a){
 }
 sum(10,15)
 
-//Aqui nós pegamos o objeto global, definimos uma propriedade chamada "Pi" cujo valor é de 3.14 e NÃO PODE SER SOBREESCREVIDA
+//Aqui nós pegamos o objeto global, definimos uma propriedade chamada "Pi" cujo valor é de 3.14 e NÃO PODE SER SOBREESCRITA.
 
 Object.defineProperty(this, "Pi", {
     value: 3.14, //define o valor de pi 
